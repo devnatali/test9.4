@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 22px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.heading {
+  background-color: #3f313f;
+  color: white;
+}
+
+.heading-wrap {
+  display: flex;
+}
+
+.heading-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding: 40px;
+}
+
+.heading-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.heading-name {
+  padding-bottom: 15px;
+}
+
+.content {
+  color: #3f313f;
+}
+
+.content-row {
+  display: flex;
+  padding-top: 15px;
+}
+
+.content-title {
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+.content-text {
+  padding-bottom: 15px;
+  padding-right: 90px;
+}
+
+.main {
+  padding-left: 180px;
+}
+
+.space {
+  padding-right: 110px;
+}
+
+.form {
+  background-color: #e5d6d2;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-title {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.form-input {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+  border-bottom: 1px solid #3f313f;
+  background-color: transparent;
+  color: #3f313f;
+  outline: none;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 250px;
+}
+
+textarea {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  resize: none;
+  width: 840px;
+}
+
+.textarea-container {
+  padding-left: 165px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.btn {
+  text-align: center;
+}
+
+button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #3f313f;
+  color: white;
+  font-size: 16px;
+  padding: 10px 50px;
+}
+
+.footer {
+  background-color: #3f313f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-title {
+  color: white;
+  text-align: center;
+}
+
+.list {
+  padding-bottom: 60px;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.list-item::before {
+  content: "\25A0";
+  margin-right: 10px;
+  color: #e5d6d2;
+  font-weight: bold;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: plum;
+}
+
+button:hover {
+  color: plum;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-bottom {
+  color: #e5d6d2;
+  text-align: center;
+}
